@@ -3,6 +3,8 @@ Microsoft Intune **Proactive Remediation** scripts to set the
 `MicrosoftUpdateManagedOptIn` registry value that opts Windows devices into
 Secure Boot certificate updates aligned with the **Windows UEFI CA 2023** due to the 2026 expiration of the following keys: Microsoft KEK CA 2011, Production PCA 2011, and UEFI CA 2011 .
 
+For more information: https://support.microsoft.com/en-us/topic/windows-devices-for-businesses-and-organizations-with-it-managed-updates-e2b43f9f-b424-42df-bc6a-8476db65ab2f
+
 > **Registry**
 >
 > - **Path:** `HKLM:\SYSTEM\CurrentControlSet\Control\SecureBoot`
